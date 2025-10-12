@@ -8,3 +8,28 @@ body{
     width:  1000px;
     margin: auto;
 } 
+#header_container{
+    position: sticky;
+    top:  0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+#header_container img{
+    height:  40px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap:  30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:  #333;
+}
+nav ul li:last-child a{
+    color:  #fff;
+    background-color: #4E991C;
+    padding:  8px 16px;
+}
