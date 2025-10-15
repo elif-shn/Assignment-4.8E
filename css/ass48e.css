@@ -61,9 +61,48 @@ article p {
     margin-bottom: 30px;
     background-color: #FFDF8A;
 }
+
 article footer {
     background-color: #4E991C;;
     color: white;
     padding: 12px 20px;
     display: inline-block;
+}
+#container2{
+    padding: 60px 40px;
+    text-align: center;
+}
+#container2 h1 {
+  color:#223B7F;
+}
+#container2 h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+#container2 ul {
+  display: flex;
+  list-style: none;
+}
+#container2 li {
+  flex: 1 1 250px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+#container2 li img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 20px;
+}
+#container2 li header {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+#container2 li p {
+  font-size: 1rem;
+  line-height: 1.5;
 }
